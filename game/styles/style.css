@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+
+* {
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+.cover {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.about {
+	color: grey;
+	font-size: 40px;
+}
+
+.capitalise {
+	font-size: 1.5em;
+}
+
+.yellow {
+	color: #FFD420;
+}
+.after {
+	content: "";
+    position: absolute;
+    width: 130px;
+    height: 2px;
+    background-color: #919395;
+    left: 145px;
+    bottom: 15px;
+ }
+
+ .underline {
+ 	position: relative;
+ }
+
+ .underline:after{
+ 	content: "";
+    position: absolute;
+    width: 145px;
+    height: 2px;
+    background-color: #919395;
+    left: 0px;
+    bottom: 15px;
+ }
+
+.underline2 {
+	position: relative;
+}
+
+ .underline2:after{
+ 	content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #919395;
+    left: 0px;
+    bottom: 0px;
+ } 
+
+ .imagewidth {
+ 	width: 50%;
+ }
+
+.italic {
+	font-style: italic;
+}
+.h2margin {
+	margin-bottom: 25px;
+	font-size: 50px;
+}
+
+.header {
+	position: relative;
+	background-image: url("../img/background.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-top: 53%;
+}
+
+h1 {
+	margin: 0;
+	font-size: 80px;
+	color: white;
+	line-height: 0.8em;
+}
+
+.header-inner {
+	position: absolute;
+	width: 600px;
+	max-width: 100%;
+	top: 60px;
+	left: 50px;
+}
+
+.header-ul ul {
+	margin-top: 60px;
+	display: flex;
+	padding-left: 0;
+}
+
+.header a {
+	position: relative;
+	margin-right: 40px;
+	font-size: 20px;
+}
+
+.header a:hover {
+	color: white;
+}
+
+.header a::after {
+	content: "";
+	position: absolute;
+	width: 0%;
+	height: 1px;
+	background-color: yellow;
+	left: 0;
+	bottom: -5px;
+	transition: 1s;
+}
+
+.header a:hover::after {
+	width: 100%;
+}
+/* --------header-end--------------------*/
+
+.sublime1 {
+	position: relative;
+	display: flex;
+	padding: 70px 0 0 130px;
+	margin-bottom: 60px;
+
+}
+.sublime1-left {
+	position: relative;
+	width: 50%;
+}
+
+.sublime1-left h2 {
+	line-height: 0.8em;
+	font-size: 80px;
+	color: black;
+}
+
+.loremtext {
+	font-style: italic;
+	margin: 0 0 9px 0;
+}
+
+.sublime1-right {
+	width: 50%;
+	position: relative;
+}
+.loremtext::after {
+	content: "";
+    position: absolute;
+    width: 2px;
+    height: 130px;
+    background-color: #919395;
+    left: -20px;
+    bottom: 30px;
+}
+.sublime2 {
+	display: flex;
+	width: 1100px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.sublime2 img {
+	border: 2px solid #FFBA2A;
+	border-radius: 50%;
+	padding: 20px;
+	background-color: #E9E9E9;
+}
+
+.projects-inner {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+
+}
+.projects-header {
+	margin: 50px 40px 25px 80px;
+}
+
+.projects-header h2 {
+	font-size: 50px;
+}
+
+.projects-header ul {
+	display: flex;
+	padding-left: 0;
+
+}
+
+.projects-header li {
+	margin-right: 35px;
+}
+.projects-header a {
+	position: relative;
+	color: black;
+	font-size: 10px;
+	font-weight: bold;
+}
+.projects-header a:hover {
+	color: black;
+}
+.projects-header a::after {
+	content: "";
+	position: absolute;
+	width: 0%;
+	height: 2px;
+	background-color: #FFD420;
+	left: 25%;
+	bottom: -5px;
+	transition: 1s;
+}
+.projects-header a:hover::after {
+	width: 50%;
+}
+
+.project-img {
+	width: 25%;
+	padding-bottom: 25%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom: 5px;
+}
+
+.progect-img1 {
+	background-image: url("../img/death.png");
+	
+	
+	
+}
+
+.progect-img2 {
+	
+	background-image: url("../img/assasin.png");
+	
+	
+}
+.progect-img3 {
+	
+	background-image: url("../img/blueeyes.png");
+	
+	
+}
+.progect-img4 {
+
+	background-image: url("../img/car.png");
+	
+	
+}
+.progect-img5 {
+	
+	background-image: url("../img/soldier.png");
+	
+	
+}
+.progect-img6 {
+	
+	background-image: url("../img/dark.png");
+	
+	
+}
+.progect-img7 {
+	
+	background-image: url("../img/jumpsoldier.png");
+	
+	
+}
+.progect-img8 {
+	
+	background-image: url("../img/starwars.png");
+	
+}
+
+.strategic-inner {
+	width: 1000px;
+	max-width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+.strategic-imgs {
+	padding-bottom: 67%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.method {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.ourprocess-img {
+	background-image: url("../img/process.png");
+	padding-bottom: 67%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.ourproxess-tex {
+	padding-left: 35px;
+}
+.method-img {
+	background-image: url("../img/method.png");
+}
+.outcome-tex {
+	padding-left: 35px;
+}
+.outcome-img {
+	background-image: url("../img/outcome.png");
+}
+
+.services {
+	width: 100%;
+	background-image: url("../img/joker.png");
+}
+.services-header {
+	padding: 40px 50px;
+    font-size: 40px;
+    color: white;
+}
+
+.services-inner {
+	width: 1100px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.services-inner_four {
+	width: 550px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: auto;
+	align-content: space-between;
+}
+.services-width {
+	color: white;
+	margin: 20px 90px 50px 0;
+	
+}
+.services-width p {
+	
+	font-size: 14px;
+}
+.team {
+	display: flex;
+	width: 100%;
+	height: 590px;
+	
+}
+.team-header {
+	padding: 40px 50px;
+    font-size: 40px;
+}
+.team-header h2 {
+
+}
+
+.team-right {
+	width: 900px;
+	margin: 0 auto;
+	padding-top: 80px;
+}
+.team-img {
+	display: flex;
+	margin-top: 40px;
+	text-align: center;
+}
+.team-marg {
+	margin-right: 20px;
+}
+.Testimonials {
+	background-color: black;
+	color: white;
+	width: 100%;
+}
+.Testimonials-inner {
+	display: flex;
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 60px;
+	padding-bottom: 200px;
+}
+.Testimonials-text {
+	padding-left: 50px;
+	padding-top: 80px;
+}
+
+.Testimonials-header {
+	color: white;
+	font-size: 40px;
+}
+
+.Testimonials-left {
+	width: 70%;
+
+}
+.Testimonials-right {
+	padding-top: 100px;
+	text-align: center;
+	width: 40%;
+}
+.Testimonials-right img {
+	border: 2px solid yellow;
+	border-radius: 50%;
+}
+
+.blogs-inner {
+	width: 1200px;
+	display: flex;
+	justify-content: space-between;
+	margin: 50px auto 100px; 
+}
+
+.all25 {
+	width: 25%;
+}
+
+.blogs-imgs .yellow {
+	margin-top: 5px;
+	font-size: 20px;
+}
+
+.fonth2 {
+	font-size: 60px;
+}
+.blogs-header a {
+	color: black;
+	font-size: 20px;
+	line-height: 2.2em;
+}
+.blogs-header a:hover {
+	color: #FFD420;
+	transition: 1s;
+}
+
+.blogs-header h2 {
+	margin-bottom: 60px;
+}
+.blogs-header ul {
+	margin-left: 45px;
+}
+.map {
+	position: relative;
+}
+.map .sublime  {
+	position: absolute;
+	border: 2px solid #FFD420;
+	border-radius: 50%;
+	background-color: black;
+	display: inline-block;
+	color: white;
+	left: 230px;
+    bottom: 300px;
+}
+.footer {
+	display: flex;
+}
+.footer-form {
+	padding: 50px 75px;
+	background-color: #0044B7;
+}
+.map {
+	width: 45%;
+}
+.footer-form {
+	width: 55%;
+}
+.map iframe {
+	width: 100%
+}
+.form-row {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+.footer-form input[type="text"], 
+.footer-form input[type="email"], 
+.footer-form input[type="tel"] {
+	height: 35px;
+	border:2px solid white;
+	background-color: transparent;
+	color: white;
+}
+.footer-form form {
+	width: 410px;
+}
+.fullwidth {
+	width: 100%;
+}
+.halfwidth {
+	width: 50%;
+}
+.footer-form .tel {
+	width: calc(50% - 50px);
+}
+.form-row textarea {
+	resize: none;
+	height: 75px;
+	width: 70%;
+	border:2px solid white;
+	background-color: transparent;
+	color: white;
+}
+.form-row select {
+    height: 35px;
+    align-self: flex-end;
+    border:2px solid white;
+	background-color: #0044B7;
+	color: white;
+}
+.form-row option {
+	background-color: transparent;
+}
